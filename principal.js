@@ -20,7 +20,7 @@ var valor4 = document.getElementById("quantidadeD10");
 var valor5 = document.getElementById("quantidadeD12");
 var valor6 = document.getElementById("quantidadeD20");
 var resultArea = document.getElementById("resultado");
-
+var recipiente = document.getElementById("recipienteResultados");
 
 
 
@@ -79,6 +79,7 @@ var somaFinal ="Soma Total: ";
 		soma6 = soma6 + resultado;
    }
 
+recipiente.classList.remove('oculto');
 
 var somatotal = soma1+soma2+soma3+soma4+soma5+soma6;
 
